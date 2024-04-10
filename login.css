@@ -1,0 +1,128 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body{
+    background: url('http://i.imgur.com/Eor57Ae.jpg') no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .logo {
+    width: auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-weight:bold;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: rgb(6, 25, 40);
+}
+ 
+  
+  .login {
+    margin-top: 80px;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-size: 16px;
+  }
+
+  .login-header,
+  .login p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+ 
+  .login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+  }
+  
+  .login-header {
+    background: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .login-container {
+    background: #ebebeb;
+    padding: 12px;
+  }
+  
+
+  .login p {
+    padding: 12px;
+  }
+  
+  .login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  
+
+  .login input[type="text"]:focus,
+  .login input[type="password"]:focus {
+    border-color: #888;
+  }
+  
+  .login-container p button {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .login-container p button:hover {
+    background: #17c;
+  }
+  
+  .login-container p button :focus {
+    border-color: #05a;
+  }
+
+  .login-container p button a{
+    text-decoration: none;
+    color: white;
+  }
+
+  form .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  
